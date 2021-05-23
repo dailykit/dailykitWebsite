@@ -1,0 +1,851 @@
+* {
+  box-sizing: border-box;
+}
+/* bakery */
+.green_heading {
+  max-width: 65vw;
+  font-size: 7.7vh;
+  color: #8ac03b;
+  font-family: "Chivo", sans-serif;
+  font-weight: 100;
+  margin-bottom: 11.5vh;
+  margin-top: 22.5vh;
+  line-height: 5.5rem;
+}
+
+.black_heading {
+  max-width: 60vw;
+  font-size: 12.5vh;
+  font-family: "Chivo", sans-serif;
+  font-weight: 1000;
+  color: #1d2b44;
+  margin-bottom: 33vh;
+  line-height: 5.5rem;
+}
+
+.sidebar_heading {
+  font-size: 30px;
+  width: 30vh;
+  font-family: "Nunito", sans-serif;
+  color: #073763;
+}
+.imagebox-start-mealkit-brand {
+  width: 28rem;
+  border: 2px solid black;
+}
+.para_heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #073763;
+  font-family: "chivo", sans-serif;
+  margin-bottom: 15vh;
+}
+.container {
+  margin-bottom: 10vh;
+}
+ul.link_container {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.sticky-top {
+  top: 20vh;
+  z-index: 0;
+}
+
+.sidebar_link {
+  color: black;
+  list-style-type: none !important;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  font-family: "Chivo", sans-serif;
+  font-size: 18px;
+  line-height: 2.5;
+  padding: 10px;
+  font-weight: normal;
+  margin-bottom: 2px;
+}
+
+.sidebar_link:hover {
+  opacity: 0.1;
+  color: black;
+}
+
+small {
+  color: grey;
+}
+
+.head {
+  margin: 0vh 0vh 0vh 15vh;
+}
+
+.para_first,
+.para_second {
+  color: #494d4e;
+  font-size: 18px;
+  font-family: "chivo", sans-serif;
+}
+.para2_heading {
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  color: #073763;
+  font-weight: bold;
+}
+/* blog-section */
+.Blog_heading {
+  font-size: 1.625rem;
+  text-align: center;
+  font-weight: 900;
+  color: #113d63;
+  font-family: "Nunito", sans-serif;
+  margin-top: 12vh;
+}
+
+.ReadMore {
+  text-decoration: none;
+  color: #113d63;
+  transition: all 0.4s ease-in-out;
+}
+
+.ReadMore:hover {
+  color: orange;
+  text-decoration: underline;
+}
+/* navbar styling */
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+/* footer-styling */
+.copyright {
+  font-family: chivo, sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+  background: black;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  word-wrap: break-word;
+  font-size: 17px;
+}
+.flex-container {
+  background: #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.flex-container > .footer_section {
+  font-family: "chivo", sans-serif;
+  width: 18rem;
+  margin: 10px;
+  font-size: 17px;
+  line-height: 1.8rem;
+}
+
+.flex-container > .footer_section > li {
+  line-height: 2.5rem;
+  cursor: pointer;
+}
+.flex-container > .footer_section > li:hover {
+  color: orange;
+}
+.footer_section {
+  color: #113d63;
+  font-weight: 700;
+  list-style: none;
+}
+.footer_section h3 {
+  color: #113d63;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  list-style: none;
+}
+
+/* homepage and we-serve-page-images(restaurant,supermarkets)*/
+.imagebox1 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-restaurant@2x.png");
+}
+.imagebox2 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-supermarket@2x.png");
+}
+.imagebox3 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-cloudkitchen@2x.png");
+}
+.imagebox4 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-enterprise@2x.png");
+}
+.imagebox1,
+.imagebox2,
+.imagebox3,
+.imagebox4 {
+  height: 10rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.below-image-button {
+  font-size: 16px;
+  border: 0 2px 0 2px green;
+  margin-top: 6rem;
+  margin-left: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  .imagebox1,
+  .imagebox2,
+  .imagebox3,
+  .imagebox4 {
+    height: 23rem;
+    background-repeat: "no-repeat";
+    background-size: "cover";
+  }
+  .below-image-button {
+    font-size: 16px;
+    border: 0 2px 0 2px green;
+    margin-top: 20rem;
+    margin-left: 0rem;
+    width: 100%;
+  }
+  .card-responsive {
+    margin-bottom: 5rem;
+  }
+}
+.imagebox5 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/Order%20fulfillment.png");
+  background-position: center;
+}
+.imagebox6 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/sales%20%26%20revenues.png");
+  background-position: center;
+}
+.imagebox7 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/inventory%20usage.png");
+  background-position: center;
+}
+.imagebox8 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/pickup%20insights.png");
+  background-position: center;
+}
+.imagebox9 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/self%20delivery%20reports.png");
+  background-position: center;
+}
+.imagebox10 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/delivery%20partner.png");
+  background-position: center;
+}
+.imagebox11 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/order-dashboard-hero2@2x.png");
+  background-position: left;
+  background-size: 130vh;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.imagebox12 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/order-dashboard-hero2@2x.png");
+}
+.imagebox13 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/DailyOS-Notifications@2x.png");
+}
+.imagebox14 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/DailyOS-Notifications@2x.png");
+}
+.imagebox15 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/print-KOTs@2x.png");
+  background-position: center;
+}
+.imagebox16 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/print-KOTs@2x.png");
+}
+.imagebox17 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/print-KOTs@2x.png");
+}
+/* used in page-'order-routing-and-kitchen-display-system' */
+.imagebox18 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-routing/Digitalize-Kitchen-Operation5@2x.png");
+  background-position: left;
+  background-size: 200vh;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+/* used in page-'order-fulfillment' */
+.imagebox19 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/pickup@2x.png");
+}
+.imagebox20 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/delivery@2x.png");
+}
+.accompaniments_image {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/hardwareee.png");
+}
+.onDemandCategories {
+  list-style-type: "✔ ";
+}
+.onDemandCategories li {
+  margin-bottom: 2rem;
+}
+.nunito {
+  font-family: "Nunito", sans-serif;
+}
+.margin {
+  margin: 0px 0px 0px 60px !important;
+}
+/* videoheader */
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+}
+.videoTag_text {
+  position: absolute;
+  text-align: center;
+}
+.videoTag_btn {
+  padding: 10px 10px 10px 10px;
+}
+
+/* videobanner */
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0px 0px 0px 0px;
+  }
+  .video {
+    margin-top: 25vh;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .homebutton {
+    margin-top: 2rem;
+  }
+}
+/* vertical line */
+.vl {
+  border-left: 4px solid #8ac03b;
+  height: 50px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .vl {
+    display: none;
+  }
+}
+.blackline {
+  border-left: 3px solid #ffffff;
+  height: 230px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: -90px;
+}
+.column:hover {
+  background: #f8f8f7;
+  box-shadow: 2px 2px 3px 3px #e7e7e6;
+}
+.column2:hover {
+  background: #111b2b;
+  box-shadow: -4px 4px 2px rgb(27 43 69 / 30%), 4px -4px 2px rgb(7 11 17 / 50%),
+    inset 100px 100px 200px rgb(7 11 17 / 20%),
+    inset -100px -100px 200px rgb(7 11 17 / 20%),
+    inset 100px -100px 200px rgb(27 43 69 / 90%),
+    inset -100px 100px 250px rgb(7 11 17 / 90%);
+}
+/* blue-box in subscription-store in sells category */
+.column3 {
+  border-radius: 7px;
+  background: linear-gradient(135deg, #121c2d 0%, #101a29 100%);
+  box-shadow: 10px -10px 20px rgb(7 11 17 / 20%),
+    -10px 10px 20px rgb(7 11 17 / 20%), 10px 10px 20px rgb(27 43 69 / 90%),
+    -10px -10px 25px rgb(7 11 17 / 90%), inset -1px -1px 2px rgb(27 43 69 / 30%),
+    inset 1px 1px 2px rgb(7 11 17 / 50%);
+  padding: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .column3 {
+    text-align: center;
+    margin-left: -24px;
+  }
+}
+/* optimize kitchen */
+.container_weserve {
+  display: flex;
+  flex-direction: row;
+  background-color: #111b2b;
+}
+.sideBar_left {
+  margin-left: 12vh;
+  width: 50%;
+}
+
+.sideBar_left h6 {
+  color: #8ac03b;
+  padding: 100px 0px 20px 0px;
+}
+
+.sideBar_left h1 {
+  color: white;
+  font-size: 9vh;
+  padding-bottom: 5vh;
+}
+
+.sideBar_left h5 {
+  color: white;
+  border-left: solid 5px #8ac03b;
+  padding: 0vh 0vh 1vh 4vh;
+  line-height: normal;
+}
+.weserve_button1 {
+  padding: 15px 41px 15px 41px;
+  color: #111b2b;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+.weserve_button2 {
+  background-color: #111b2b;
+  color: white;
+  font-weight: bold;
+  margin: 30px 0px 0px 5px;
+  padding: 15px 41px 15px 41px;
+  border: none;
+  border-radius: 5px;
+}
+.weserve_img {
+  height: auto;
+  width: 100%;
+}
+.container_weserve {
+  margin-top: 12rem;
+}
+.learn {
+  padding: 12px 21px 12px 21px;
+  color: #111b2b;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 4rem;
+}
+.learMore_button2 {
+  background-color: #8ac03b;
+  color: white;
+  padding: 5px 31px 5px 31px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.blackline2 {
+  border-left: 3px solid #ffffff;
+
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: -90px;
+}
+@media only screen and (max-width: 600px) {
+  .sideBar_left {
+    margin-left: 7vh;
+    width: 80%;
+    text-align: center;
+  }
+  .container_weserve {
+    flex-wrap: wrap;
+  }
+}
+/* ///////////////////////// */
+
+/* imagebox (home-page)*/
+.restaurant-button {
+  margin-top: -2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  cursor: pointer;
+}
+.supermarket-button {
+  margin-top: -2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  cursor: pointer;
+}
+.restaurant-button:hover {
+  border-left: 4px solid #8ac03b;
+  border-right: 4px solid #8ac03b;
+}
+.supermarket-button:hover {
+  border-left: 4px solid #8ac03b;
+  border-right: 4px solid #8ac03b;
+}
+@media only screen and (max-width: 600px) {
+  .restaurant-button {
+    margin-top: -10rem;
+    margin-bottom: 4rem;
+  }
+  .supermarket-button {
+    margin-top: -10rem;
+  }
+  .deliever-excellence-img {
+    margin-top: -12rem;
+  }
+}
+/* selleverything */
+.trend-responsive,
+.gamify {
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .trend-responsive,
+  .gamify {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .accompaniments_image {
+    display: none;
+  }
+}
+/* /demandcategories */
+@media only screen and (max-width: 600px) {
+  .categories {
+    margin-left: 2rem;
+  }
+}
+/* start-grow-run  */
+.heading-start-grow-run {
+  font-weight: "bolder";
+  font-size: "60px";
+  width: "90%";
+  text-align: "center";
+}
+@media only screen and (max-width: 600px) {
+  .heading-start-grow-run {
+    margin-left: 4rem;
+  }
+}
+/* ourupricing */
+@media only screen and (max-width: 600px) {
+  .ourpricing {
+    margin-top: 2rem;
+  }
+}
+/* storethatsells */
+
+@media only screen and (max-width: 600px) {
+  .image-responsive {
+    margin-top: 4rem;
+  }
+}
+/* why_choose */
+.why_choose {
+  color: #8ac03b;
+  font-weight: 600;
+}
+/* menu-management */
+.image-responsive-size {
+  width: 28vw;
+}
+@media only screen and (max-width: 600px) {
+  .image-responsive-size {
+    width: 65vw;
+    margin-left: 5rem;
+  }
+}
+/* blue-box */
+@media only screen and (max-width: 600px) {
+  .blackline {
+    display: none;
+  }
+}
+
+.bluebox-right {
+  font-size: 19px;
+  line-height: 2rem;
+  text-align: right;
+}
+.bluebox-left {
+  font-size: 19px;
+  line-height: 2rem;
+  text-align: left;
+}
+@media only screen and (max-width: 600px) {
+  .bluebox-right,
+  .bluebox-left {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+/* end-to-end */
+.inputbox {
+  margin-left: 27rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .inputbox {
+    margin-left: 0.5rem;
+  }
+  .form-button {
+    margin-top: 2rem;
+    margin-left: 10rem;
+  }
+}
+/* we-serve-page */
+.image-responsive-1 {
+  width: 37rem;
+  margin-top: -15rem;
+}
+/* also used in order-fullfillment in right-images */
+.right-image-responsive {
+  width: 25rem;
+}
+.enterprise-image {
+  margin-top: -11rem;
+  width: 34rem;
+}
+/* /2images in customer or opertor in order-fulfillment-page */
+.image-responsive-2 {
+  max-width: 80%;
+}
+.heading-responsive {
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .image-responsive-1 {
+    vertical-align: middle;
+    width: 17rem;
+    margin-top: 0rem;
+    margin-left: 1.5rem;
+  }
+  /* cloud-kitchen and enterprise image */
+  .right-image-margintop {
+    margin-top: 5rem;
+  }
+  .enterprise-image {
+    margin-top: -5rem;
+    width: 20rem;
+  }
+
+  /* customer or opertor in order-fulfillment-page  */
+  /* /* /2images in */
+  .image-responsive-2 {
+    max-width: 70%;
+    margin-left: 2rem;
+  }
+  /* heading */
+  .heading-responsive {
+    margin-top: 4rem;
+    font-size: 30px;
+  }
+  /* used in order-fullfillment in right-images */
+  .right-image-responsive {
+    width: 20rem;
+  }
+}
+/*order-dashboard(insight-component-heading)*/
+.insight-heading {
+  font-weight: bolder;
+  font-size: 3.5rem;
+  font-family: "Nunito", sans-serif;
+  letter-spacing: 1.5px;
+  margin-left: 5.5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.insight-subheading {
+  color: #8ac03b;
+  font-weight: bolder;
+  margin-top: 12rem;
+  margin-left: 5.5rem;
+}
+.list-styling {
+  background-color: #fa4b4b;
+  color: white;
+  width: 250px;
+  font-weight: bold;
+  border: 0 2px 0 2px green;
+  margin-top: -2rem;
+  margin-left: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  .insight-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 0rem;
+  }
+  .insight-subheading {
+    text-align: center;
+    margin-left: 1rem;
+  }
+  .learn {
+    margin-left: 8rem;
+  }
+  .redhover {
+    margin-bottom: 4rem;
+  }
+  .list-styling {
+    margin-left: 2rem;
+  }
+}
+/* ////////meal-kit-brand-sidebar-heading */
+@media only screen and (max-width: 600px) {
+  .sidebar_heading {
+    margin-left: -0.1rem;
+    width: 55vh;
+    margin-top: -7rem;
+  }
+  .black_heading {
+    width: 50vh;
+    font-size: 6vh;
+  }
+  .imagebox-start-mealkit-brand {
+    width: 20rem;
+    border: 2px solid black;
+  }
+  .para2_heading {
+    font-size: 18px;
+  }
+}
+/* ////////////////////////////////////////////////////////// */
+.bluebox-heading {
+  font-weight: bolder;
+  font-size: 50px;
+  margin-top: 5rem;
+}
+.bluebox-col1heading {
+  font-weight: bolder;
+}
+.bluebox-col1para {
+  text-align: right;
+  margin-bottom: 5rem;
+  margin-left: 4rem;
+}
+.bluebox-image {
+  height: 10rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bluebox-learnMore {
+  margin-right: 15rem;
+}
+/* /////////////////////making bluebox on order routing page-responsive */
+@media only screen and (max-width: 600px) {
+  .bluebox-heading {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 2rem;
+  }
+  .bluebox-col1heading {
+    text-align: left;
+  }
+  .bluebox-imageicon {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 10rem;
+  }
+  .bluebox-col1para {
+    font-weight: 10px !important;
+    text-align: left;
+    width: 120vw;
+    margin-left: -2rem;
+  }
+  .bluebox-image,
+  .bluebox-imagecontainer {
+    display: none;
+  }
+  .bluebox-learnMore {
+    margin-right: 5rem;
+  }
+}
+/* orderfulfillment heading */
+.order-fulfillment-heading {
+  font-weight: 400;
+  font-size: 50px;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+}
+.pickup-button {
+  font-size: 25px;
+  margin-top: -5rem;
+  width: 30rem;
+  margin-left: 2rem;
+}
+/* market-heading */
+.market-heading,
+.we-serve-heading {
+  font-weight: bolder;
+  font-size: 60px;
+  margin: 2rem 0rem 2rem 0rem;
+}
+@media only screen and (max-width: 600px) {
+  .order-fulfillment-heading {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+  }
+  .pickup-button {
+    margin-top: -12rem;
+    width: 20.5rem;
+    margin-left: 0.1rem;
+    margin-bottom: 5rem;
+  }
+  .market-heading,
+  .we-serve-heading {
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 2rem 0rem 2rem 0rem;
+  }
+  .we-serve-heading {
+    margin-top: -2rem;
+  }
+}
