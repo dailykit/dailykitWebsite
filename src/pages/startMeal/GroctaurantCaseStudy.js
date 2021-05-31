@@ -6,6 +6,7 @@ import BlackHeading from "../../components/BlackHeading";
 import BlogSection from "../../components/BlogSection";
 import GreenHeading from "../../components/GreenHeading";
 import Sidebar from "../../components/Sidebar";
+import FormSection1 from "../../components/FormSection1";
 export default class GroctaurantCaseStudy extends PureComponent {
   render() {
     return (
@@ -22,6 +23,8 @@ export class GroctaurantCaseStudyComponent extends PureComponent {
   render() {
     return (
       <div>
+         <FormSection1 dataAccount="3161173:g2o5g2c3i8"
+  dataForm="4175704:a4w7j9"/>
         <div className="head">
           <GreenHeading text="How DailyKIT helped" />
           <BlackHeading text="Groctaurant to generate a new revenue stream with Meal Kits" />
@@ -106,6 +109,9 @@ export class GroctaurantCaseStudyComponent extends PureComponent {
               ],
             },
           ]}
+          imageurl={
+            "https://www.dailykit.org/hs-fs/hubfs/groc3.jpg?width=800&name=groc3.jpg"
+          }
         />
 
         <BlogSection

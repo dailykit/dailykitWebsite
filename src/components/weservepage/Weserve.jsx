@@ -35,16 +35,14 @@ export default class Weserve extends PureComponent {
             <div class="col-md-3 col-xs-10">
               <div class="card card-responsive">
                 <div class="card-body imagebox1">
-                  <a href="/" class="btn btn-dark p-4 below-image-button">
-                    Restaurants
-                  </a>
+                  <a class="btn btn-dark p-4 below-image-button">Restaurants</a>
                 </div>
               </div>
             </div>
             <div class="col-md-3 col-xs-10">
               <div class="card card-responsive">
                 <div class="card-body imagebox2">
-                  <a href="/" class="btn btn-dark p-4 below-image-button">
+                  <a class="btn btn-dark p-4 below-image-button">
                     SuperMarkets
                   </a>
                 </div>
@@ -53,7 +51,7 @@ export default class Weserve extends PureComponent {
             <div class="col-md-3 col-xs-10">
               <div class="card card-responsive">
                 <div class="card-body imagebox3">
-                  <a href="/" class="btn btn-dark p-4 below-image-button">
+                  <a class="btn btn-dark p-4 below-image-button">
                     Cloud Kitchens
                   </a>
                 </div>
@@ -62,9 +60,7 @@ export default class Weserve extends PureComponent {
             <div class="col-md-3 col-xs-10">
               <div class="card card-responsive">
                 <div class="card-body imagebox4">
-                  <a href="/" class="btn btn-dark p-4 below-image-button">
-                    Enterprise
-                  </a>
+                  <a class="btn btn-dark p-4 below-image-button">Enterprise</a>
                 </div>
               </div>
             </div>

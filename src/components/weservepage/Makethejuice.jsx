@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import ContactFormSection2 from "../shared/ContactFormSection2";
 
 export default class Makethejuice extends PureComponent {
   render() {
@@ -13,7 +14,7 @@ export default class Makethejuice extends PureComponent {
                   fontWeight: "bolder",
                 }}
               >
-                One-Stop Shop
+                {this.props.subheading}
                 <br />
               </p>
               <h2
@@ -24,47 +25,55 @@ export default class Makethejuice extends PureComponent {
                 }}
                 className="nunito"
               >
-                Make The Juice Worth The Squeeze
+                {this.props.heading}
               </h2>
               <div class="row">
                 <div
                   class="col-md-2 col-xs-10 vl"
                   style={{ marginRight: "-70px", paddingRight: "-12px" }}
                 ></div>
-                <div class="col-md-10 col-xs-10">
-                  Blend Best Business Practices To Help Your Food Business
-                  Maximize Sustainability & Growth
-                </div>
+                <div class="col-md-10 col-xs-10">{this.props.para}</div>
               </div>
               <div className="justify-content-center mt-4">
-                <button type="button" className="weserve_button1">
-                  Schedule A Call
-                </button>
+                <a href={this.props.button1link}>
+                  <button type="button" className="weserve_button1">
+                    {this.props.button1text}
+                  </button>
+                </a>
                 &nbsp;&nbsp;&nbsp;
-                <button type="button" className="weserve_button2">
-                  Learn More
+                <button
+                  type="button"
+                  className="weserve_button2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  {this.props.button2text}
                 </button>
               </div>
+              <ContactFormSection2
+                dataAccount={this.props.dataAccount}
+                dataForm={this.props.dataForm}
+              />
               <div class="row" style={{ paddingTop: "1rem" }}>
                 <div class="col-md-3 col-xs-10">
                   {" "}
                   <img
-                    src="https://www.dailykit.org/hubfs/osaas/images/icons/chat-icon.png"
+                    src={this.props.smallimage}
                     alt=""
                     style={{ paddingTop: "2rem", width: "110px" }}
                   />
                 </div>
                 <div class="col-md-5 col-xs-10" style={{ paddingTop: "2rem" }}>
-                  <small>Minimum Added Revenue</small>
+                  <small>{this.props.smallheading}</small>
                   <h4 style={{ color: "#8ac03b", fontWeight: "bolder" }}>
-                    $100000
+                    {this.props.smallsubheading}
                   </h4>
                 </div>
               </div>
             </div>
             <div class="col-md-6 col-xs-10">
               <img
-                src="https://www.dailykit.org/hubfs/dailykit-assets/Lob-hero@2x.png"
+                src={this.props.image}
                 alt="..."
                 class="image-responsive-1"
               />

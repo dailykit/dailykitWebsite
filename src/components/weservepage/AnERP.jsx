@@ -7,9 +7,7 @@ export default class AnERP extends PureComponent {
         <div class="container" style={{ marginTop: "12rem" }}>
           <div class="row justify-content-between">
             <div class="col-md-6 col-xs-10 trend-responsive">
-              <h2 className="nunito we-serve-heading">
-                An ERP for Large Enterprises
-              </h2>
+              <h2 className="nunito we-serve-heading">{this.props.heading}</h2>
               <p
                 style={{
                   fontSize: "13px",
@@ -17,17 +15,17 @@ export default class AnERP extends PureComponent {
                   color: "silver",
                 }}
               >
-                Easily address the complexities of large food manufacturers and
-                distributors while dealing with high transaction volumes and
-                multiple locations.
+                {this.props.para}
               </p>
-              <button type="button" className="weserve_button1">
-                SCHEDULE A MEETING
-              </button>
+              <a href={this.props.button1link}>
+                <button type="button" className="weserve_button1">
+                  {this.props.button1text}
+                </button>
+              </a>
             </div>
             <div class="col-md-6 col-xs-10 right-image-margintop">
               <img
-                src="https://www.dailykit.org/hubfs/dailykit-assets/enterprise-solution@2x.png"
+                src={this.props.rightImage}
                 alt="..."
                 class="enterprise-image"
               />

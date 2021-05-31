@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 import "../../style.css";
-import paperplane from "../../paperplane.PNG";
+
 export default class KeepthemLoyal extends PureComponent {
   render() {
     return (

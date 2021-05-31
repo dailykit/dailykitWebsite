@@ -21,25 +21,25 @@ const Footer = () => {
         </div>
         <div className="footer_section">
           <h3>ABOUT US</h3>
-          <p>DailyKit Philosophy</p>
+          <p><a href="/Aboutus/Ourphilosophy"> DailyKit Philosophy</a></p>
         </div>
 
-        <ul className="footer_section">
+        <div className="footer_section">
           <h3>START A MEAL KIT BRAND</h3>
 
-          <li>QSR & Cafes</li>
-          <li>Casual and Fine Dining</li>
-          <li>Cloud Kitchen</li>
-          <li>Bakery</li>
-        </ul>
+         <li><a href="/restaurants/cafes"> QSR & Cafes</a></li>
+          <li><a href="/restaurants/fine-dine-restaurants">Casual and Fine Dining</a></li>
+          <li><a href="/cloud_kitchen">Cloud Kitchen</a></li>
+          <li><a href="/bakerypage">Bakery</a></li>
+        </div>
 
-        <ul className="footer_section">
+        <div className="footer_section">
           <h3>Contact us</h3>
 
           <li>Rishi@dailykit.org</li>
 
           <li>+13125210704</li>
-        </ul>
+        </div>
       </div>
 
       <div className="copyright">

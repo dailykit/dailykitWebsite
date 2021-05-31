@@ -6,6 +6,7 @@ import BlackHeading from "../../components/BlackHeading";
 import BlogSection from "../../components/BlogSection";
 import GreenHeading from "../../components/GreenHeading";
 import Sidebar from "../../components/Sidebar";
+import FormSection1 from "../../components/FormSection1";
 export default class Franchisees extends PureComponent {
   render() {
     return (
@@ -22,6 +23,8 @@ export class FranchiseesComponent extends PureComponent {
   render() {
     return (
       <div>
+         <FormSection1 dataAccount="3161173:g2o5g2c3i8"
+  dataForm="4175704:a4w7j9"/>
         <div className="head">
           <GreenHeading text="Why Franchisees businesses" />
           <BlackHeading text="Should add Meal kit to their repertoire" />

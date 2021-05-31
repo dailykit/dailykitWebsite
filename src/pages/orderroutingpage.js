@@ -2,18 +2,18 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
-import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
-import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
-import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
+import EndToEndFoodBusiness from "../components/shared/EndToEndFoodBusiness";
+import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
 import Bluebox1 from "../components/orderpage/Bluebox1";
 import Digitalise from "../components/orderpage/Digitalise";
-import RoutingSameBanners from "../components/orderpage/RoutingSameBanners";
+import BannerSection3 from "../components/shared/BannerSection3";
+import BannerSection8 from "../components/shared/BannerSection8";
 export default class Orderroutingpage extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "12rem" }}>
         <Navbar />
-        <StoreThatSells
+        <BannerSection3
           subheading={
             "Operate a Kitchen Where Everyone Knows Their Roles & Responsibilites."
           }
@@ -21,6 +21,7 @@ export default class Orderroutingpage extends PureComponent {
           image={
             "https://www.dailykit.org/hubfs/dailykit-assets/order-routing/Idiot%20Proof.....png"
           }
+          blackbuttontext={"Start Now"}
         />
         <Bluebox1
           heading={"Large or Small, We're Built for Every Scale of Operations"}
@@ -35,6 +36,8 @@ export default class Orderroutingpage extends PureComponent {
           col2para={
             "No KDS? No problem! Print receipts with precise job instructions."
           }
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm="4175704:a4w7j9"
         />
 
         <Digitalise />
@@ -52,8 +55,10 @@ export default class Orderroutingpage extends PureComponent {
             "For on-demand ordering it is best to assign priority to each received order and pack & assemble them according to their expected dispatch time."
           }
           learn={"one"}
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm="4175704:a4w7j9"
         />
-        <RoutingSameBanners
+        <BannerSection8
           heading={"How It Works for Meal Kits"}
           subheading={"Routing Meal Kit Ingredients"}
           image={
@@ -65,7 +70,7 @@ export default class Orderroutingpage extends PureComponent {
             "Step 3 - Post ingredients packing, the assembly station is notified. Staff then assemble meal kits using a hand-scanner or mobile app.",
           ]}
         />
-        <RoutingSameBanners
+        <BannerSection8
           heading={"How It Works for Ready-to-Eat"}
           subheading={"Routing Menu Items"}
           image={
@@ -77,7 +82,7 @@ export default class Orderroutingpage extends PureComponent {
             "Step 3 - Once all of the items are packed, it's sent to the designated assembly station, where label is scanned or marked manually.",
           ]}
         />
-        <RoutingSameBanners
+        <BannerSection8
           heading={"How It Works for Grocery"}
           subheading={"Routing Grocery Items"}
           image={
@@ -89,8 +94,48 @@ export default class Orderroutingpage extends PureComponent {
             "Step 3 - Once all items are packed, it's then sent to the designated assembly station where the label is scanned or marked manually & the items are assembled in their respective bags",
           ]}
         />
-        <EndToEndFoodBusiness />
-        <ScheduleMeeting />
+        <EndToEndFoodBusiness
+          subheading={"An End-To-End Food Business Software Solution Provider"}
+          heading={"You've Never Managed Your Food Business Like This Before"}
+          dataAccount={"3161173:g2o5g2c3i8"}
+          dataForm={"4175542:d4z0s3"}
+          points={[
+            [
+              "Recipe & Menu Engineering",
+              "Manufacturing Technology",
+              "Sales & Marketing Platform",
+            ],
+            [
+              "Delivery & Packaging Integrations",
+              "Inventory Management",
+              "Analytics",
+            ],
+          ]}
+        />
+        <ScheduleMeetingSection1
+          heading={"Schedule an E-Meeting"}
+          image={
+            "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
+          }
+          id={"scheduledemo"}
+          content={[
+            {
+              question: "How Do You Schedule A Meeting?",
+              answer:
+                "Select the date on the calendar, the time slot, and then simply fill in your information. Done!",
+            },
+            {
+              question: "What Happens After You Schedule A Meeting?",
+              answer:
+                "We will send you a calendar invite to your supplied email address with the Google Meet link at the scheduled date & time.In the event that you're unable to join by laptop/computer, we will call you on the given phone number",
+            },
+            {
+              question: "What Happens During The Meeting?",
+              answer:
+                "We invite you to share good, bad and the ugly of your business. After understanding your requirements and concerns, we will figure out how to deploy the proper DailyKIT tech solutions based on your business strategy.",
+            },
+          ]}
+        />
         <Footer />
       </div>
     );

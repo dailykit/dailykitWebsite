@@ -6,6 +6,7 @@ import BlackHeading from "../../components/BlackHeading";
 import BlogSection from "../../components/BlogSection";
 import GreenHeading from "../../components/GreenHeading";
 import Sidebar from "../../components/Sidebar";
+import FormSection1 from "../../components/FormSection1";
 export default class For_Restaurants extends PureComponent {
   render() {
     return (
@@ -22,6 +23,8 @@ export class Restaurants extends PureComponent {
   render() {
     return (
       <div>
+         <FormSection1 dataAccount="3161173:g2o5g2c3i8"
+  dataForm="4175704:a4w7j9"/>
         <div className="head">
           <GreenHeading text="Fine Dine customers love Meal Kits the most since" />
           <BlackHeading text="Your recipes are unique, Loyal Customers & You can get very high ROI" />

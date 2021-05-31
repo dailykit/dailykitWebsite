@@ -2,27 +2,31 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
-import MarketingMadeEasy from "../components/marketpage/MarketingMadeEasy";
-import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
-import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
-import Heading from "../components/homepage/Heading";
-import RoutingSameBanners from "../components/orderpage/RoutingSameBanners";
-import OrderNotification from "../components/orderpage/OrderNotification";
-import Weighingimage from "../components/orderpage/weighingimage";
+import EndToEndFoodBusiness from "../components/shared/EndToEndFoodBusiness";
+import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
+import Heading from "../components/shared/Heading";
+import BannerSection8 from "../components/shared/BannerSection8";
+import BannerSection9 from "../components/shared/BannerSection9";
+import SpecialBanner1 from "../components/shared/SpecialBanner1";
+import SpecialBanner4 from "../components/orderpage/SpecialBanner4";
 
 export default class Portioncontrolpage extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "7rem" }}>
         <Navbar />
-        <MarketingMadeEasy
+        <SpecialBanner1
           heading={"Ensuring Portion Consistency"}
           subheading={""}
           imageurl={
             "https://www.dailykit.org/hubfs/dailykit-assets/portion-control/idiotproof-banner.png"
           }
+          button1text={"Get Started Now"}
+          button2text={"Free Demo"}
+          button1link={"#scheduledemo"}
+          button2link={"#scheduledemo"}
         />
-        <OrderNotification
+        <BannerSection9
           heading={"Portion Control"}
           subheading={`Is the operational tactic of making sure that the quantities used
             in production are in accordance with your standard operating procedures`}
@@ -48,7 +52,7 @@ export default class Portioncontrolpage extends PureComponent {
             "Make sure your staff is using the required quantities every time."
           }
         />
-        <RoutingSameBanners
+        <BannerSection8
           heading={`How It Works:
           Meal Kits`}
           subheading={"Meal Kit Ingredient Packaging"}
@@ -61,7 +65,7 @@ export default class Portioncontrolpage extends PureComponent {
             "Step 3 - As soon as correct weight is achieved, the ingredient sachet gets marked completed and the label is printed out automatically.",
           ]}
         />{" "}
-        <RoutingSameBanners
+        <BannerSection8
           heading={`How It Works:
           Meal Prep`}
           subheading={"Meal Prep Tray Packaging"}
@@ -74,7 +78,7 @@ export default class Portioncontrolpage extends PureComponent {
             "Step 3 - Once all of the components for the Meal Prep product are portioned and packed, the label is automatically printed, and marked as complete.",
           ]}
         />
-        <RoutingSameBanners
+        <BannerSection8
           heading={"How It Works:Grocery"}
           subheading={"White-Label Artisanal Grocery Packaging"}
           image={
@@ -87,9 +91,52 @@ export default class Portioncontrolpage extends PureComponent {
           ]}
         />
         <Heading text={"Supported Weighing Scale"} />
-        <Weighingimage />
-        <EndToEndFoodBusiness />
-        <ScheduleMeeting />
+        <SpecialBanner4
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm="4175704:a4w7j9"
+        />
+        <EndToEndFoodBusiness
+          subheading={"An End-To-End Food Business Software Solution Provider"}
+          heading={"You've Never Managed Your Food Business Like This Before"}
+          dataAccount={"3161173:g2o5g2c3i8"}
+          dataForm={"4175542:d4z0s3"}
+          points={[
+            [
+              "Recipe & Menu Engineering",
+              "Manufacturing Technology",
+              "Sales & Marketing Platform",
+            ],
+            [
+              "Delivery & Packaging Integrations",
+              "Inventory Management",
+              "Analytics",
+            ],
+          ]}
+        />
+        <ScheduleMeetingSection1
+          heading={"Schedule an E-Meeting"}
+          image={
+            "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
+          }
+          id={"scheduledemo"}
+          content={[
+            {
+              question: "How Do You Schedule A Meeting?",
+              answer:
+                "Select the date on the calendar, the time slot, and then simply fill in your information. Done!",
+            },
+            {
+              question: "What Happens After You Schedule A Meeting?",
+              answer:
+                "We will send you a calendar invite to your supplied email address with the Google Meet link at the scheduled date & time.In the event that you're unable to join by laptop/computer, we will call you on the given phone number",
+            },
+            {
+              question: "What Happens During The Meeting?",
+              answer:
+                "We invite you to share good, bad and the ugly of your business. After understanding your requirements and concerns, we will figure out how to deploy the proper DailyKIT tech solutions based on your business strategy.",
+            },
+          ]}
+        />
         <Footer />
       </div>
     );

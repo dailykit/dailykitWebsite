@@ -6,6 +6,7 @@ import BlackHeading from "../../components/BlackHeading";
 import BlogSection from "../../components/BlogSection";
 import GreenHeading from "../../components/GreenHeading";
 import Sidebar from "../../components/Sidebar";
+import FormSection1 from "../../components/FormSection1";
 
 export default class Cloud_kitchen extends PureComponent {
   render() {
@@ -22,7 +23,10 @@ export default class Cloud_kitchen extends PureComponent {
 export class CloudKitchen extends PureComponent {
   render() {
     return (
-      <div>
+      <div> 
+          <FormSection1 dataAccount="3161173:g2o5g2c3i8"
+  dataForm="4175704:a4w7j9"/>
+
         <div className="head">
           <GreenHeading text="We help you build a strong and sustainable business by providing" />
           <BlackHeading

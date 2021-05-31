@@ -1,8 +1,9 @@
 import React from "react";
 import "./../../style.css";
-const VideoBanner = () => {
+import $ from "jquery";
+const VideoBanner = (props) => {
   return (
-    <div className="image video" style={{ background: "#212529" }}>
+    <div className="image video-1">
       <video
         className="videoTag"
         autoPlay
@@ -15,33 +16,39 @@ const VideoBanner = () => {
           type="video/mp4"
         />
       </video>
-      <div className="videoTag_text">
-        <h2 style={{ color: "lightblue" }}>Time to EVOLVE with</h2>
-        <h2 style={{ color: "white" }}>DailyKIT</h2>
+      <div className="header">
+        <div class="heading-1">{props.heading1text}</div>
+        <h2 class="nunito">{props.heading2text}</h2>
         <br />
-        <h5 style={{ color: "white" }}>
-          The only Trend-Responsive Food-tech solution You'll Ever Need
-        </h5>
+        <h5>{props.subheadingtext}</h5>
         <br />
-        <h4 style={{ color: "lightgreen" }}>Multiple Your Brand Awareness</h4>
+        <h4
+          id="yourElem"
+          class="all-text"
+          onclick={setInterval(() => {
+            $("#yourElem").text(
+              props.toggletextarr[Math.floor(Math.random() * 4) + 0]
+            );
+          }, 2000)}
+        >
+          {props.toggletextarr[0]}
+        </h4>
         <br />
         <br />
-        <button type="button" className="btn btn-light btn-lg">
-          <a href="/" style={{ textDecoration: "none", color: "#0a58ca" }}>
-            Schedule Demo
-          </a>
-        </button>
+        <a href={props.whitebuttonlink}>
+          <button type="button" className="btn-style-thirteen white">
+            {props.whitebuttontext}
+          </button>
+        </a>
         &ensp;
-        <button type="button" className="btn btn-primary btn-lg homebutton">
-          <a href="/" style={{ textDecoration: "none", color: "white" }}>
-            Start Now With A 3-Month Trail
-          </a>
-        </button>
+        {/* <a href="/">
+          <button type="button" className="btn-style-ten purple">
+            {props.purplebuttontext}
+          </button>
+        </a>
         <br />
         <br />
-        <h6 style={{ color: "lightblue" }}>
-          Available for a Limited time Only
-        </h6>
+        <div class="offer">{props.offertext}</div> */}
       </div>
     </div>
   );

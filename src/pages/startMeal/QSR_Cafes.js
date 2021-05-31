@@ -6,6 +6,7 @@ import BlackHeading from "../../components/BlackHeading";
 import BlogSection from "../../components/BlogSection";
 import GreenHeading from "../../components/GreenHeading";
 import Sidebar from "../../components/Sidebar";
+import FormSection1 from "../../components/FormSection1";
 export default class QSR_Cafes extends PureComponent {
   render() {
     return (
@@ -22,6 +23,8 @@ export class QsrCafesComponent extends PureComponent {
   render() {
     return (
       <div>
+         <FormSection1 dataAccount="3161173:g2o5g2c3i8"
+  dataForm="4175704:a4w7j9"/>
         <div className="head">
           <GreenHeading text="Experience 100% growth from" />
           <BlackHeading text="Stagnant to Increasing Revenue, Shrinking to Expanding Consumer base & Unsustainable Margin to Healthy Profits" />

@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // pages
 
 /* start meal kit brand */
-
 import BakeryPage from "./pages/startMeal/bakery";
 import Cloud_kitchen from "./pages/startMeal/cloud_kitchen";
 import Grocers from "./pages/startMeal/Grocers";
@@ -29,8 +28,7 @@ import Homepage from "./pages/homepage";
 import OnDemandStorepage from "./pages/ondemandstorepage";
 import SubscriptionStorepage from "./pages/subscriptionstorepage";
 import MenuManagementpage from "./pages/menumanagement";
-// ScheduleMeeting
-import ScheduleMeeting from "./components/homepage/ScheduleMeeting";
+
 // marketpage
 import Marketpage from "./pages/marketpage";
 //servepage
@@ -53,7 +51,6 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={Homepage} />
-            <Route exact path="/ScheduleDemo" component={ScheduleMeeting} />
             {/* start meal kit brand */}
             <Route path="/bakerypage" component={BakeryPage} />
             <Route path="/Cloud_kitchen" component={Cloud_kitchen} />

@@ -6,6 +6,7 @@ import BlackHeading from "../../components/BlackHeading";
 import BlogSection from "../../components/BlogSection";
 import GreenHeading from "../../components/GreenHeading";
 import Sidebar from "../../components/Sidebar";
+import FormSection1 from "../../components/FormSection1";
 export default class Meal_kit_packaging extends PureComponent {
   render() {
     return (
@@ -17,11 +18,12 @@ export default class Meal_kit_packaging extends PureComponent {
     );
   }
 }
-
 export class MealKitPackaging extends PureComponent {
   render() {
     return (
       <div>
+         <FormSection1 dataAccount="3161173:g2o5g2c3i8"
+  dataForm="4175704:a4w7j9"/>
         <div className="head">
           <GreenHeading text="How to pack your" />
           <BlackHeading text="Meal Kits?" />
@@ -62,9 +64,24 @@ export class MealKitPackaging extends PureComponent {
                 {
                   para2_heading: "Subscription/Mail-Order Business Model",
                   para2: [
-                    "1. BlueApron is synonymous with  those who have used a subscription service like this.  People must be familiar with the packaging that Blue Apron Meal Kits comes with but those who aren’t, this is what their outer packaging looks like.",
-                    "You must be thinking “Wow, that’s some bulky packaging they’ve got” but wait, this is how it looks from inside",
-                    "This is what their box looks like empty from inside with the insulation and ice packs",
+                    {
+                      description:
+                        "1. BlueApron is synonymous with  those who have used a subscription service like this.  People must be familiar with the packaging that Blue Apron Meal Kits comes with but those who aren’t, this is what their outer packaging looks like.",
+                      image:
+                        "https://www.dailykit.org/hs-fs/hubfs/Screenshot%202020-01-06%20at%205.26.29%20PM.png?width=929&name=Screenshot%202020-01-06%20at%205.26.29%20PM.png",
+                    },
+                    {
+                      description:
+                        "You must be thinking “Wow, that’s some bulky packaging they’ve got” but wait, this is how it looks from inside",
+                      image:
+                        "https://www.dailykit.org/hs-fs/hubfs/Screenshot%202020-01-06%20at%205.26.38%20PM.png?width=933&name=Screenshot%202020-01-06%20at%205.26.38%20PM.png",
+                    },
+                    {
+                      description:
+                        "This is what their box looks like empty from inside with the insulation and ice packs",
+                      image:
+                        "https://www.dailykit.org/hs-fs/hubfs/Screenshot%202020-01-06%20at%205.26.46%20PM.png?width=933&name=Screenshot%202020-01-06%20at%205.26.46%20PM.png",
+                    },
                     "Now in case of BlueApron and services similar to this, one thing to note is that they are not hyperlocal and shipping from their central facility using fedex or UPS similar services. So, it is quite natural for them to bulk up their packaging with ice packs and insulation.",
                     "Surprisingly, in BA’s case, packaging weighs 2/3rd of the box weighing mainly because of the ice packs, which is not required in case of hyperlocal delivery.",
                   ],
@@ -72,8 +89,19 @@ export class MealKitPackaging extends PureComponent {
                 {
                   para2_heading: "Shelf-Based Meal Kits",
                   para2: [
-                    "A bigger trend arising these days is the shelving of Meal Kits in grocery aisles inside open aerated refrigerators. When compared to mail-order packaging, this  requires strikingly light packaging. Here’s a picture of the packaging of Meal Kit kept by BlueApron in retail.",
-                    "Also, another take by Publix market in packaging is this",
+                    {
+                      description:
+                        "A bigger trend arising these days is the shelving of Meal Kits in grocery aisles inside open aerated refrigerators. When compared to mail-order packaging, this  requires strikingly light packaging. Here’s a picture of the packaging of Meal Kit kept by BlueApron in retail.",
+                      image:
+                      "https://www.dailykit.org/hs-fs/hubfs/Screenshot%202020-01-06%20at%205.26.55%20PM.png?width=927&name=Screenshot%202020-01-06%20at%205.26.55%20PM.png",
+                    },
+                    {
+                      description:
+                      "Also, another take by Publix market in packaging is this",
+                      image:
+                      "https://www.dailykit.org/hs-fs/hubfs/Screenshot%202020-01-06%20at%205.27.04%20PM.png?width=935&name=Screenshot%202020-01-06%20at%205.27.04%20PM.png",
+                    },
+                    
                     "They use a paper bag that is easy to carry and also more environmentally sustainable as compared to using a plastic bag.",
                   ],
                 },
@@ -120,13 +148,26 @@ export class MealKitPackaging extends PureComponent {
                     "Please note: It may happen that some of the ingredients are available as a sachet from the manufacturer such as ketchup or butter. In those cases, they do not require additional packaging.",
                   ],
                 },
-
                 {
                   para2_heading: "Groctaurant Example",
                   para2: [
-                    "Have a look at how Groctaurant, a Hyperlocal Meal Kit brand run by a restaurant kitchen used to pack Meal Kits..",
-                    "Laid out like this nicely as if ready for a chef’s kitchen table. ",
-                    "Looking like this once cooked. ",
+                    {
+                      description:
+                        "Have a look at how Groctaurant, a Hyperlocal Meal Kit brand run by a restaurant kitchen used to pack Meal Kits..",
+                      image:
+                        "https://www.dailykit.org/hs-fs/hubfs/Screenshot%202020-01-06%20at%205.27.15%20PM.png?width=933&name=Screenshot%202020-01-06%20at%205.27.15%20PM.png",
+                    },
+                    {
+                      description:
+                        "Laid out like this nicely as if ready for a chef’s kitchen table. ",
+                      image:
+                        "https://www.dailykit.org/hs-fs/hubfs/Screenshot%202020-01-06%20at%205.27.23%20PM.png?width=933&name=Screenshot%202020-01-06%20at%205.27.23%20PM.png",
+                    },
+                    {
+                      description: "Looking like this once cooked. ",
+                      image:
+                        "https://www.dailykit.org/hs-fs/hubfs/Screenshot%202020-01-06%20at%205.27.32%20PM.png?width=935&name=Screenshot%202020-01-06%20at%205.27.32%20PM.png",
+                    },
                     "At Groctaurant, which was also running a cloud restaurant with a different brand name, delivered Meal Kits under 60 minutes.",
                     "Well, truth be told, Meal Kits are little packaging intensive. In an informal study done, as compared to someone purchasing food through grocery, Meal Kits consume 20% more packaging by weight.",
                   ],
@@ -155,6 +196,7 @@ export class MealKitPackaging extends PureComponent {
               ],
             },
           ]}
+          videourl="https://www.youtube.com/embed/pmtxnL0Y_n0"
         />
 
         <BlogSection

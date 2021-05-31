@@ -6,6 +6,7 @@ import BlackHeading from "../../components/BlackHeading";
 import BlogSection from "../../components/BlogSection";
 import GreenHeading from "../../components/GreenHeading";
 import Sidebar from "../../components/Sidebar";
+import FormSection1 from "../../components/FormSection1";
 export default class What_is_a_mealkit extends PureComponent {
   render() {
     return (
@@ -22,6 +23,10 @@ export class MealkitComponent extends PureComponent {
   render() {
     return (
       <div>
+
+          <FormSection1 dataAccount="3161173:g2o5g2c3i8"
+  dataForm="4175704:a4w7j9"/>
+
         <div className="head">
           <GreenHeading text="Everyone’s talking about Meal Kits." />
           <BlackHeading text="But do you know what a Meal Kit is?" />
@@ -68,6 +73,7 @@ export class MealkitComponent extends PureComponent {
               ],
             },
           ]}
+          videourl={"https://www.youtube.com/embed/9BNn7n8zjfY"}
         />
 
         <BlogSection

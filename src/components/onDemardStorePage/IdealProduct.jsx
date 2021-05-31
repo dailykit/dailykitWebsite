@@ -215,13 +215,14 @@ export default class IdealProduct extends PureComponent {
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        <button
-          type="button"
-          class="btn btn-primary btn-lg"
-          style={{ margin: "2rem 30% 2rem 30%" }}
-        >
-          Get Started Now
-        </button>
+        <a href="#scheduledemo">
+          <button
+            type="button"
+            class="btn-style-thirteen green responsive-button"
+          >
+            Get Started Now
+          </button>
+        </a>
       </div>
     );
   }
